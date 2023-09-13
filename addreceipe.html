@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Edit Recipe</title>
+    <link rel="stylesheet" href="style3.css"> 
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="uploads/your-logo.png" alt="Logo" width="50" height="50">
+        </div>
+        <a href="index.html">Home</a>
+        <a href="recipe list.html">Recipe list </a>
+        <a href="receipe_detail.html">Receipe Detail</a>
+        <a href="#Add/Edit recipe ">Add/Edit recipe </a>
+        <a href="contact.html">Contact us</a>
+    </div>
+    <header>
+        <h1>Add/Edit Recipe</h1>
+    </header>
+
+    <main>
+        <section class="recipe-form">
+            <h2>Add/Edit Recipe</h2>
+            <form action="submit_recipe_form.php" method="post">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" name="recipe-name" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" name="instructions" rows="6" required></textarea>
+
+                <button type="submit">Save</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

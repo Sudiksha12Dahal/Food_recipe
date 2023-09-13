@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style1.css"> 
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="uploads/your-logo.png" alt="Logo" width="50" height="50">
+        </div>
+        <a href="index.html">Home</a>
+        <a href="recipe list.html">Recipe list </a>
+        <a href="receipe_detail.html">Receipe Detail</a>
+        <a href="addreceipe.html">Add/Edit recipe </a>
+        <a href="contact-us">Contact us</a>
+    </div>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+  
+
+    <main>
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you have any questions or feedback, feel free to contact us using the form above or through the following information:</p>
+            <ul>
+                <li>Email: info@example.com</li>
+                <li>Phone: 9824560000</li>
+                <li>Address: 123 Main Street, kathmandu, Nepal</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
